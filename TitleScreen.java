@@ -22,6 +22,7 @@ public class TitleScreen extends World
         addObject(titleLabel, getWidth()/2, 150);
         addObject(subLabel, getWidth()/2, 250);
         prepare();
+        setBackground(new GreenfootImage("background.jpg"));
     }
 
     /**
