@@ -19,7 +19,7 @@ public class Apple extends Actor
         image.scale(50, 50);
         setImage(image); 
         //Let the apple fall.
-        setLocation(getX(), getY() + 1);
+        setLocation(getX(), getY() + speed);
         
         //Remove apple and draw the game Over when apple gets to bottom
         MyWorld world = (MyWorld)getWorld();

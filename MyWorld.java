@@ -40,7 +40,7 @@ public class MyWorld extends World {
         score++;
         scoreLabel.setValue(score);
         
-        if (score % 5 == 0)
+        if (score % 2 == 0)
         {
             level += 1; 
         }
